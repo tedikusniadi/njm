@@ -1,0 +1,294 @@
+<!--
+@media print
+{
+	div#main_container
+	{	
+			padding: 4px;
+			margin: 2px;
+			width: 90%;
+			height:100%;
+			position: relative;
+			
+			visibility: inherit;
+			 position:relative ;
+			 left: 10px;
+			 background-color: white;
+			page-break-before: auto;
+			page-break-after: auto;	
+	
+	}
+	div#menu_container
+	{
+		display:none;
+	}
+	div#headerZZ
+	{
+		display:none;
+	}
+	div#footer
+	{
+		display:none;
+	}
+	div#letterNo
+	{
+		position: absolute;
+		left: 350px;
+		top: 20px;
+		width: 216px;
+		height: 29px;
+		
+	}
+	div#letterNo2
+	{		
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 14px;
+	}
+	div#logo_part
+	{
+		display:none;
+	}
+	/*
+		div#corp_part
+		{
+			display:inline; text-align:center;
+		}
+	*/
+	div#corp_part2
+	{
+		display:block;
+	}
+	div#footer_part
+	{
+		display:none;
+	}
+	div#part
+	{
+		display:block;
+		position: absolute; bottom: 650px;
+	}
+	div#quick_link_container
+	{
+		display:none;
+	}
+
+	.content-font {font-size:10pt; color:#000000;}
+
+	.borderTable 
+	{ 
+		border:1px solid black;
+	}
+
+	.borderRightBottom
+	{ 
+		border-right-color:#000000; 
+		border-right-width:1px; 
+		border-right-style:solid;
+		
+		border-bottom-color:#000000; 
+		border-bottom-width:1px; 
+		border-bottom-style:solid;
+	}
+	
+	.borderRight { border-right:1px solid black; }
+	.borderBottom
+	{ 
+		border-bottom:1px solid black;
+	}
+	.borderTopBottom { border-top:1px solid black; border-bottom:1px solid black;}
+
+.tes {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:25pt; color:#ff0000;}
+
+.stdWidth 
+	{
+		WIDTH:730px; height:500px; margin-left:0px; table-layout:fixed;  
+	}
+.stdHeight
+	{ 
+		height:50px; margin-left:0px; table-layout:fixed; 
+	}
+
+}
+@media screen
+{
+
+	div#letterNo
+	{
+		position: absolute;
+		left: 450px;
+		top: 30px;
+		width: 216px;
+		height: 29px;
+		
+	}
+	div#letterNo2
+	{
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 14px;
+	}
+	div#corp_part2
+	{
+		display:none;
+	}
+
+	div#corp_part
+	{
+		display		:inline; 
+		font-family	:Verdana, Arial, Helvetica, sans-serif;
+		font-size	:20px; 
+		
+	}
+
+	div#part
+	{
+	display:block;
+	font-family: Verdana;
+	font-size: 10px;
+	position: absolute;
+	bottom: 28px;
+	left: 15px;
+	top: 700px;
+	width: 893px;
+	}
+	div#main_container
+	{
+		border: 0px solid white;
+			padding: 4px;
+			margin: 4px;
+			width: 90%;
+			height:100%;
+			position: relative;
+			overflow: auto;
+			visibility: inherit;
+			 position:relative ;
+			 left: 0px;
+			 background-color: white;
+			page-break-before: auto;
+			page-break-after: auto;	
+	
+	}
+	div#footer_part
+	{
+		
+	}	
+
+	.content-font 
+	{
+	font-size:10pt; color:#000000;
+	}
+	.borderTable 
+	{ 
+		border:1px solid black;
+	}
+	.borderRightBottom
+	{ 
+		border-right-color	:#000000; 
+		border-right-width	:1px; 
+		border-right-style	:solid;
+		
+		border-bottom-color	:#000000; 
+		border-bottom-width	:1px; 
+		border-bottom-style	:solid;
+		font-family			:Verdana, Arial, Helvetica, sans-serif; 
+		font-size			:10px;
+
+	}
+	.borderRight { border-right:1px solid black; }
+	.borderBottom
+	{ 
+		border-bottom	:1px solid black; 
+		font-family		:Verdana, Arial, Helvetica, sans-serif; 
+		font-size		:10px;
+	}
+	.borderTopBottom 
+	{ 
+		border-top:1px solid black; border-bottom:1px solid black;
+	}
+}
+
+.borderTable 
+	{ 
+		border:1px solid black;
+	}
+.borderRightBottom
+	{ 
+		border-right-color	:#000000; 
+		border-right-width	:1px; 
+		border-right-style	:solid;
+		
+		border-bottom-color	:#000000; 
+		border-bottom-width	:1px; 
+		border-bottom-style	:solid;
+		font-family			:Verdana, Arial, Helvetica, sans-serif; 
+		font-size			:10px;
+
+	}
+.borderRight { border-right:1px solid black; }
+.borderBottom
+	{ 
+		border-bottom	:1px solid black; 
+		font-family		:Verdana, Arial, Helvetica, sans-serif; 
+		font-size		:10px;
+	}
+.borderTopBottom { border-top:1px solid black; border-bottom:1px solid black;}
+
+
+.content_heading_bold
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+}
+.CSS {
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+}
+.CSS1 {
+	font-family: Verdana;
+	font-size: 10px;
+}
+.CSS2 {
+	border: 1px solid #000000;
+}
+.CSS3 {
+	font-family: Verdana;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-weight: 600;
+}
+.CSS4 {
+	font-family: Times New Roman;
+	font-size: 14px;
+}
+.CSS5 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+.posisi1 {
+	position: absolute; bottom: 25px; 
+	font-family: Verdana;
+	font-size: 10px;
+}
+.posisi2 {
+	position: absolute; bottom: 5px; 
+}
+.word1 {
+	font-family: Verdana;
+	font-size: 10px;
+	position: absolute; bottom: 25px; left: 0px;
+}
+
+.pageTitle{
+    color: #000080;
+    font-size: 20px;
+    font-weight: bold;
+}		
+
+.spanTitleBg{
+	font-size:12px;
+  text-align: center; 
+  background-color:#E0F2FE;
+}
+
+-->

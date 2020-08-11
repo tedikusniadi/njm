@@ -1,0 +1,160 @@
+@media print
+{
+	body
+	{
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		padding: 0;
+		margin: 0;
+		left: 0;
+		width: 99%;
+		height:100%;
+		letter-spacing : 4px;
+		position: relative;
+		visibility: inherit;
+		position:relative ;
+		background-color: white;
+		page-break-before: auto;
+		page-break-after: auto;			
+	}
+	
+	div#menu_container
+	{
+		display:none;
+	}
+	div#footer
+	{
+		display:none;
+	}
+	
+	div#letterNo
+	{
+		position: absolute;
+		left: 350px;
+		top: 20px;
+		width: 216px;
+		height: 29px;
+
+	}
+	div#letterNo2
+	{
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 14px;
+	}
+	div#logo_part
+	{
+		display:none;
+	}
+	div#corp_part
+	{
+		display:none;
+	}
+	div#corp_part2
+	{
+		display:block;
+	}
+	div#footer_part
+	{
+		display:none;
+	}
+	div#part
+	{
+		display:block;
+		position: absolute; bottom: 650px;
+	}
+	div#quick_link_container
+	{
+		display:none;
+	}
+
+	.content-font {font-size:10pt; color:#000000;}
+
+	.borderTable {border:1.5px solid black;}
+
+	.posisi1 {
+		position: absolute; bottom: 25px;
+		font-family: Verdana;
+		font-size: 10px;
+	}
+	.posisi2 {
+		position: absolute; bottom: 5px;
+	}
+	.word1 {
+		font-family: Verdana;
+		font-size: 10px;
+		position: absolute; bottom: 25px; left: 0px;
+	}
+
+	.pageTitle{
+			color: #000080;
+			font-size: 20px;
+			font-weight: bold;
+	}
+
+	.spanTitleBg{
+		font-size:12px;
+		text-align: center;
+		background-color:#E0F2FE;
+	}
+	
+	.out
+	{
+		bottom: 0; 
+		position:fixed;
+		margin: 0px;
+		padding: 0px;
+		width: 99%;
+	}
+	
+	.in
+	{
+		top: 0; 
+		position:fixed;
+		margin: 0px;
+		padding: 0px;
+		width: 99%;
+	}
+}
+.border-left{
+		border-left: 1.5px solid black;
+	}
+	.border-right{
+		border-right: 1.5px solid black;
+	}
+	.border-top{
+		border-top: 1.5px solid black;
+	}
+	.border-bottom{
+		border-bottom: 1.5px solid black;
+	}
+	.bordered{
+		border: 1.5px solid black;
+	}
+	
+	.CSS {
+		font-family: Verdana;
+		font-size: 10px;
+		font-weight: bold;
+	}
+	.CSS1 {
+		font-family: Verdana;
+		font-size: 10px;
+	}
+	.CSS2 {
+		border: 1px solid #000000;
+	}
+	.CSS3 {
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		letter-spacing : 6px;
+		font-size: 16px;
+		color: #000000;
+	}
+	.CSS4 {
+		font-family: Times New Roman;
+		font-size: 14px;
+	}
+	.CSS5 {
+		font-family: Arial;
+		font-size: 12px;
+		font-weight: bold;
+	}

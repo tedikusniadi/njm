@@ -1,0 +1,314 @@
+/*
+* @Author Muhammad Khairullah
+*  Sirius Indonesia. PT
+*/
+@MEDIA screen {
+	div#test {
+		font-weight: bold;
+	}
+	div#letterNo {
+		position: absolute !important;
+		left: 450px !important;
+		top: 30px !important;
+		width: 216px !important;
+		height: 29px !important;
+	}
+	div#letterNo2 {
+		font-family: Verdana, Arial, Helvetica, sans-serif !important;
+		font-size: 14px !important;
+	}
+	div#corp_part2 {
+		display: none !important;
+	}
+	div#part {
+		display: block !important;
+		font-family: Verdana !important;
+		font-size: 10px !important;
+		position: absolute !important;
+		bottom: 28px !important;
+		left: 15px !important;
+		top: 700px !important;
+		width: 893px !important;
+	}
+	div#main_container {
+		border: 0px solid black !important;
+		padding: 4px !important;
+		margin: 4px !important;
+		width: 90% !important;
+		position: relative !important;
+		overflow: auto !important;
+		visibility: inherit !important;
+		position: relative !important;
+		left: 0px !important;
+		background-color: white !important;
+		page-break-before: auto !important;
+		page-break-after: auto !important;
+	}
+	.main-box {
+		border: 0px solid black !important;
+		overflow: auto !important;
+		height: 340px !important;
+	}
+}
+
+@media print {
+	a {
+		color: black;
+	}
+	div#r11 {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	div#r12 {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	div#r13 {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	div#r14 {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	div#se-contents {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	div#se-top-logo-container {
+		display: none !important;
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	div#se-r00 {
+		margin: 0px !important;
+		padding: 0px !important;
+		display: none !important;
+	}
+	div#se-r01 {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	div#se-r02 {
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	body {
+		margin: 0px !important;
+		padding: 3px !important;
+		font-size: 14px !important;
+		font-family: monospace !important;
+		letter-spacing: 5px !important;
+	}
+	#se-top {
+		display: none !important;
+	}
+	#se-main-menu {
+		display: none !important;
+	}
+	#se-navigator {
+		display: none !important;
+	}
+	#main_container {
+		width: 90% !important;
+		position: relative !important;
+		visibility: inherit !important;
+		position: relative !important;
+		left: 10px !important;
+		background-color: white !important;
+		display: none !important;
+	}
+	div#main-box {
+		overflow: visible !important;
+		display: none !important;
+		margin: 0px !important;
+		padding: 0px !important;
+	}
+	div#menu_container {
+		display: none !important;
+	}
+	div#headerZZ {
+		display: none !important;
+	}
+	div#footer {
+		display: none !important;
+	}
+	div#letterNo {
+		position: absolute !important;
+		left: 350px !important;
+		top: 20px !important;
+		width: 216px !important;
+		height: 29px !important;
+	}
+	div#letterNo2 {
+		font-family: Verdana, Arial, Helvetica, sans-serif !important;
+		font-size: 14px !important;
+	}
+	div#logo_part {
+		display: none !important;
+	}
+	div#corp_part {
+		display: none !important;
+	}
+	div#corp_part2 {
+		display: block !important;
+	}
+	div#footer_part {
+		display: none !important;
+	}
+	div#part {
+		display: block !important;
+		position: absolute !important;
+		bottom: 650px !important;
+	}
+	div#quick_link_container {
+		display: none !important;
+	}
+	.content-font {
+		font-size: 10pt !important;
+		color: #000000 !important;
+	}
+	div.toolbar {
+		display: none !important;
+	}
+	h1.page-title {
+		display: none !important;
+	}
+	div#temp {
+		display: none;
+	}
+	.printPage,.print-child-page,.child-page {
+		margin: 0px !important;
+		padding: 0px !important;
+		page-break-before: always !important;
+	}
+	hr {
+		display: none;
+	}
+	#se-top-link {
+		display: none;
+	}
+}
+
+a {
+	text-decoration: none !important;
+}
+
+h1.title {
+	font-size: 24px !important;
+	text-decoration: underline !important;
+	font-weight: 0 !important;
+}
+
+.signature {
+	font-size: 10px !important;
+	font-style: italic !important;
+}
+
+.CSS {
+	font-size: 14px !important;
+	font-weight: bold !important;
+}
+
+.CSS1 {
+	font-size: 13.5px !important;
+}
+
+.CSS2 {
+	font-size: 12px !important;
+	letter-spacing: 3px !important;
+}
+
+.CSS3 {
+	font-size: 11px !important;
+	letter-spacing: 3px !important;
+}
+
+.CSS4 {
+	font-size: 10px !important;
+}
+
+.CSS5 {
+	font-size: 12px !important;
+	font-weight: bold !important;
+}
+
+.posisi1 {
+	position: absolute !important;
+	bottom: 25px !important;
+	font-family: Verdana !important;
+	font-size: 10px !important;
+}
+
+.posisi2 {
+	position: absolute !important;
+	bottom: 5px !important;
+}
+
+.word1 {
+	font-family: Verdana !important;
+	font-size: 10px !important;
+	position: absolute !important;
+	bottom: 25px !important;
+	left: 0px !important;
+}
+
+.pageTitle {
+	color: #000080 !important;
+	font-size: 20px !important;
+	font-weight: bold !important;
+}
+
+.spanTitleBg {
+	font-size: 12px !important;
+	text-align: center !important;
+	background-color: #E0F2FE !important;
+}
+
+.bold {
+	font-weight: bold !important;
+}
+
+.header1 {
+	font-family: Verdana !important;
+	font-size: 12px !important;
+}
+
+.header2 {
+	font-family: Verdana !important;
+	font-size: 16px !important;
+}
+
+.table-item {
+	border-spacing: 0 !important;
+}
+
+.note {
+	font-style: italic !important;
+	list-style: decimal !important;
+}
+
+.border-all,.bordered {
+	padding: 3px !important;
+	border: 2px solid black !important;
+}
+
+.border-left {
+	padding: 3px !important;
+	border-left: 2px solid black !important;
+}
+
+.border-right {
+	padding: 3px !important;
+	border-right: 2px solid black !important;
+}
+
+.border-top {
+	padding: 3px !important;
+	border-top: 2px solid black !important;
+}
+
+.border-bottom {
+	padding: 3px !important;
+	border-bottom: 2px solid black !important;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<%@ include file="/common/tld-common.jsp"%>
+
+<%
+	String path = request.getContextPath();
+	String basePath = request.getScheme() + "://"+ request.getServerName() + ":" + request.getServerPort()+ path + "/";
+%>
+<base href="<%=basePath%>">
+<html>
+	<head>
+		<title>Internal Error</title>
+		<style type="text/css" media="screen"><!-- @import url("assets/sirius.css"); --></style>
+	</head>
+<!-- BEGIN OF BODY -->
+<body>
+
+<!-- top  menu -->
+	<%@ include file="/common/sirius-header.jsp"%>
+<!-- /top menu -->
+
+
+<!-- rounded -->
+<div id="se-r00">
+	<div id="se-r01">&nbsp;</div>
+	<div id="se-r02">&nbsp;</div>
+</div>
+<!-- /rounded -->
+
+<!-- main containers -->
+<div id="se-containers">
+
+	<!-- rounded -->
+	<div id="r11">
+		<div id="r12">
+			<div id="r13">
+				<div id="r14">
+					<div id="se-contents">
+					<!-- main contents goes here -->
+						<div class="toolbar">
+							<a class="item-button-back" href="javascript:history.back();"><span>Back</span></a>
+						</div>
+
+					<div class="main-box" style="height:400px">
+						<font color="#FF0000"><strong>UNCATCH INTERNAL SYSTEM ERROR</strong><br/></font>
+						<input type="hidden" id="status" value="ERROR"/>
+						<input type="hidden" id="message" value="${em}"/>
+					     <c:if test='${not empty em}'>${em}<br/></c:if>
+					     <c:if test='${empty em}'>
+					         Sorry,The system cannot process your request.<br/>
+					         Please try again latter.<br/>
+					     </c:if>
+					     <a href="<c:url value='/page/exceptionviewerview.htm'/>">Show exception detail</a>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  <%@ include file="/common/sirius-footer.jsp"%>
+</div>
+</body>
+</html>

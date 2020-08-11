@@ -1,0 +1,26 @@
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+  version="2.0">
+
+  <description>Sirius Library Helper</description>
+  <display-name>Sirius Library Helper</display-name>
+  <tlib-version>1.0</tlib-version>
+  <short-name>sirius</short-name>
+  <uri>http://www.siriuserp.com/helper</uri>
+
+<function>
+	<name>round</name>
+	<description>
+		mode available like RoundingMode.class ,
+		there are: UP,DOWN,CEILING,FLOOR,HALF_UP,HALF_DOWN,HALF_EVEN,UNNECESSARY
+		ex: ${sirius:round('100.20',2,'UP')}
+		result: 100
+    </description>
+	<function-class>com.siriuserp.sdk.utility.DecimalHelper</function-class>
+	<function-signature>
+		java.math.BigDecimal round(java.math.BigDecimal,int,java.lang.String)
+      </function-signature>
+</function>
+
+</taglib>

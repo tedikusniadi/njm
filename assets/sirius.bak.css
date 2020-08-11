@@ -1,0 +1,83 @@
+/*
+.dropdowndatepicker {
+font-family:verdana, arial, sans;
+color:#033F6F;
+font-size:11px;
+border:1px solid #BCBFCE;
+padding:5px;
+width:200px;
+background:#FFFFE7;
+}
+
+*/
+
+/***********************************************
+ *
+ *
+ * items button for tags "A"
+ * parented on "toolbar", "toolbar-clear", "table-list.tools"
+ *
+ *
+ **/
+
+/* Tab Pages */
+
+.error {
+color:#990000;
+}
+
+.show-error {
+color:#990000;
+}
+
+.reference {
+font-size:11px;
+color:red;
+}
+
+.reference-static {
+font-size:11px;
+color:blue;
+}
+
+/*
+Insert script baru untuk mengecilkan menu bar agar kelihatan
+tidak terlalu besar
+20 september 2007
+*/
+
+
+
+/* group multiple buttons in a row */
+.box {
+display:block;
+text-align:center;
+}
+
+.box .dojoButton {
+float:left;
+margin-right:10px;
+}
+
+.dojoButton .dojoButtonContents {
+font-size:medium;
+}
+
+.filter-bg {
+background-color:#00CCCC;
+}
+
+/** dashboard   */
+.border-dash0r1 {
+background:url('images/border.gif') repeat left top;
+background-position:left;
+background-repeat:repeat-y;
+}
+
+.border-dash0r2 {
+background:url('images/border.gif') repeat right top;
+background-position:right;
+background-repeat:repeat-y;
+}
+
+.background_dot {background:url('images/dot.gif') repeat left top;}
